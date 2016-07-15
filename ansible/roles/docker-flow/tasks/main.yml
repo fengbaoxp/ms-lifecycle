@@ -3,4 +3,5 @@
     url: https://github.com/vfarcic/docker-flow/releases/download/{{ docker_flow_version }}/docker-flow_linux_amd64
     dest: /usr/local/bin/docker-flow
     validate_certs: no
+    timeout: 1200
     mode: 0755
